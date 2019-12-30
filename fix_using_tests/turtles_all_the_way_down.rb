@@ -1,4 +1,3 @@
-
 def turtles
     [
       {name: "Donatello", weapon: "bo-staff", traits: ["serious", "leader"]},
@@ -13,5 +12,6 @@ def turtle_traits(turtles)
     turtle[:traits].each do |trait|
       trait
     end
-  end
 end
+
+
