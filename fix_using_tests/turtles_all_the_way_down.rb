@@ -8,7 +8,7 @@ def turtles
 end
 
 def turtle_traits(turtles)
-  turtles.select {|turtle| turtle[:traits]}
+  turtles.select {|turtle| turtle[:traits].value}
     
   
 end
