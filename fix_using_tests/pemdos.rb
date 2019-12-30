@@ -3,7 +3,7 @@ def snake_it_up(string)
   ten_s = 10.times do |letter|
     "s"
   end
-  ten_s += string
+  ten_s.concat(" " + string  )
   ten_s
   else
   string
