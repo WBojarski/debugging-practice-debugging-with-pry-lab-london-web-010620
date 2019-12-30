@@ -1,6 +1,9 @@
 def snake_it_up(string)
   if string[0] == "s"
-  print "ssssssssss" + string
+  10.times do |letter|
+    "s"
+  end
+  string
   else
   string
   end
