@@ -1,3 +1,4 @@
+
 def turtles
     turtles = [
       {name: "Donatello", weapon: "bo-staff", traits: ["serious", "leader"]},
@@ -15,9 +16,9 @@ def turtle_traits(turtles)
       selected_traits << trait
 
       
-    end
-    
-  end
+  
     end
   end
 end
+
+
