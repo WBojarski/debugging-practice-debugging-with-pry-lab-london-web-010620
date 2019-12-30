@@ -1,5 +1,5 @@
 def turtles
-    turtles =[
+    [
       {name: "Donatello", weapon: "bo-staff", traits: ["serious", "leader"]},
       {name: "Michaelangelo", weapon: "nunchuks", traits: ["party dude"]},
       {name: "Raphael", weapon: "sais", traits: ["cool", "rude"]},
@@ -8,13 +8,10 @@ def turtles
 end
 
 def turtle_traits(turtles)
-  selected = turtles.each do |turtle|
-    turtle[:traits].each do |trait|
-      trait
-
-    end
+  turtles.select { |key| turtles[:traits]}
+   
   end
-  selected
+  
 end
 
 
